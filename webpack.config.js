@@ -5,7 +5,8 @@ module.exports = {
   watch: true,
   entry: {
     'js/app' : './src/js/app.js',
-    'js/inicio' : './src/js/inicio.js',
+    'js/inicio' : './src/js/inicio.js',   
+    'js/roles/index' : './src/js/roles/index.js'
   },
   output: {
     filename: '[name].js',
