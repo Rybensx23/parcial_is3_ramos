@@ -9,11 +9,11 @@ class Usuario extends ActiveRecord
     protected static $idTabla = 'USUARIO_ID';
 
     public $usuario_id;
-    public $usuario_nombre;
-    public $usuario_catalogo;
-    public $usuario_password;
-    public $usuario_situacion;    
-    public $usuario_estado;
+    public $usuARIO_nombre;
+    public $usuARIO_catalogo;
+    public $usuARIO_password;
+    public $usuARIO_situacion;    
+    public $usuARIO_estado;
 
     public function __construct($args = [])
     {
@@ -22,6 +22,6 @@ class Usuario extends ActiveRecord
         $this->usuario_catalogo = $args['usuario_catalogo'] ?? '';
         $this->usuario_password = $args['usuario_password'] ?? '';
         $this->usuario_situacion = $args['usuario_situacion'] ?? '1';        
-        $this->usuario_estado = $args['usuario_estado'] ?? '1';
+        $this->usuario_estado = $args['usuario_estado'] ?? '';
     }
 }

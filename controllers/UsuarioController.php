@@ -23,7 +23,7 @@ class UsuarioController
             $nombre = $_POST["usuario_nombre"];
             $catalogo = $_POST["usuario_catalogo"];
             $password = $_POST["usuario_password"];
-            $confirm_password = $_POST["usuario_confirm_password"];
+            $confirm_password = $_POST["usu_confirm_password"];
 
             if ($password) {
                 // Hash de la contraseña
